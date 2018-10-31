@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
+
     <div class="login">
         <h1>Signup</h1>
     <form action="process.php" method="post" enctype="multipart/form-data">
@@ -26,8 +27,8 @@
         <label for="password">Comfirm Password</label>
         <input type="password" name="password" id="password">
         <br>
-        <label for="number">Phone Number:</label>
-        <input type="number" name="number" id="number">
+        <label for="tel">Phone Number:</label>
+        <input type="tel" name="tel" id="tel">
         <br>
         <label for="gender">Gender:</label>
         <br>
